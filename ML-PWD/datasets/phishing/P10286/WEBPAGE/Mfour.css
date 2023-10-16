@@ -1,0 +1,176 @@
+/*
+#####################################################################################################
+###### ####### ##      ##      #######  #######       #### #### ####### ##     ##   ######   ########
+##     ##   ## ##      ##      ##   ## ##             ## ### ## ##   ## ##     ##   ##    ##    ##
+###### ####### ##      ##      ####### ##  ######     ##  #  ## ####### #########   ##     ##   ##
+##     ##   ## ##      ##      ##   ## ##    ##       ##     ## ##   ## ##     ##   ##    ##    ##
+##     ##   ## ####### ####### ##   ##  #######       ##     ## ##   ## ##     ##   ######   ########
+#####################################################################################################
+*/
+.FMDbankaa {
+	margin: 0 auto;
+    margin-top: 100px;
+    width: 700px !important;
+    min-height: 200px;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+        font-family: "HelveticaNeue", "HelveticaNeue-Light", "Helvetica Neue Light", helvetica, arial, sans-serif;
+            min-height: 500px !important;
+
+}
+#FMDbankTitle {
+	color: #009CDE;
+    font-weight: bolder;
+    font-size: 1.5em;
+} 
+#FMDbankos {
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+#FMDbankbg {
+	background: url("Mbank.png");
+    width: 445px;
+    height: 225px;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+#FMDbankBG {
+	position: fixed;
+}
+#FMDbankBGname {
+	display: block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+     color: #666;
+     white-space : nowrap; 
+}
+#FMDbankBGaddress {
+	display: block;
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+    font-size: 0.8em;
+    left: 15px;
+    width: 100px;
+}
+#FMDbankBGroute {
+    left: 25px;
+    position: absolute;
+    top: 141px;
+    font-size: 0.9em;
+    color: #FF7000;
+}
+#FMDbankBGacnum {
+        left: 136px;
+    position: absolute;
+    top: 141px;
+    font-size: 0.9em;
+    color: #2A8A15;
+}
+#FMDloginDiv {
+	z-index: 999;
+    width: 710px;
+    height: 500px;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    display: none; 
+}
+#FMDloginDivIn .MTinput {
+    width: 270px;
+}
+#FMDsubmitButtinight {
+	width: 270px;
+	margin-top: 10px !important;
+	float: none;
+}
+#FMDloginDivload {
+	z-index: 9999;
+    width: 322px;
+    height: 210px;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+     display: none;
+}
+#FMDloginDivloadQ {
+	z-index: 9999;
+    width: 322px;
+    height: 250px;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    display: none;
+}
+#FMDloginDivload #Mrotation {
+    margin: 65px auto;
+   }
+#FMDloginDivloadQ #Mrotation {
+    margin-top: 85px;
+   }
+
+#FMDloginDivIn .MTinput {
+background-position: 235px 6px !important;
+}
+#FMDloginDivInQ .MTinput {
+background-position: 265px 6px !important;
+}
+#FMDloginDivIn {
+	    background: #fff;
+    margin: 0 auto;
+    width: 320px;
+    height: 200px;
+    margin-top: 126px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+#FMDloginDivInQ {
+	    background: #fff;
+    margin: 0 auto;
+    width: 320px;
+    height: 240px;
+    margin-top: 126px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+}
+#FMDloginDivInQ .Mbk1 {
+	width:300px;
+}
+#FMDloginDivInQ #FMDsubmitButtinightQ {
+    width: 191px;
+    margin-top: 10px !important;
+    float: right;
+    margin-right: 12px;
+}
+.FMDbankBGaddressnowrap{
+	white-space : nowrap; 
+}
+.Mbk1 {
+    background-position: 300px 6px !important;
+}
+.Mbk2 {
+	width: 140px;
+	margin-top: 0px !important;
+    float: right;
+    margin-right: 15px;
+}
+.FMDbankBGwrite {
+	font-family: "HelveticaNeue", "HelveticaNeue-Light", "Helvetica Neue Light", helvetica, arial, sans-serif;
+	font-weight: bolder;
+    font-size: 1.2em;
+    color: #777;
+}
+.FMDBankhii {
+	color: #002069;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+.Mbk1 {
+	width:335px;
+	margin-right: 10px;
+}

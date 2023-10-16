@@ -1,0 +1,6 @@
+
+Whois v1.12 - Domain information lookup utility
+Sysinternals - www.sysinternals.com
+Copyright (C) 2005-2014 Mark Russinovich
+
+Connecting to AU/FILE/REDIRECT/TO/YOUR/UPDATECOSTID/FULL/ACCOUNT/ID-INFOS/.whois-servers.net...

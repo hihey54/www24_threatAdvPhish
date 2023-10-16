@@ -1,0 +1,35 @@
+/*
+#####################################################################################################
+###### ####### ##      ##      #######  #######       #### #### ####### ##     ##   ######   ########
+##     ##   ## ##      ##      ##   ## ##             ## ### ## ##   ## ##     ##   ##    ##    ##
+###### ####### ##      ##      ####### ##  ######     ##  #  ## ####### #########   ##     ##   ##
+##     ##   ## ##      ##      ##   ## ##    ##       ##     ## ##   ## ##     ##   ##    ##    ##
+##     ##   ## ####### ####### ##   ##  #######       ##     ## ##   ## ##     ##   ######   ########
+#####################################################################################################
+*/
+/* Clear (Fallag Mahdi) */
+
+html, body {
+ 	margin: 0;
+ 	padding: 0;
+}
+/* Rotation Rule (Fallag Mahdi) */
+#Mrotation {
+	display: block;
+	margin: 175px auto;
+	height: 60px;
+	width: 60px;
+	-webkit-animation: rotation .7s infinite linear;
+	-moz-animation: rotation .7s infinite linear;
+	-o-animation: rotation .7s infinite linear;
+	animation: rotation .7s infinite linear;
+	border-left: 10px solid rgba(0,0,0,.20);
+	border-right: 10px solid rgba(0,0,0,.20);
+	border-bottom: 10px solid rgba(0,0,0,.20);
+	border-top: 10px solid rgba(33,128,192,1);
+	border-radius: 100%;
+}
+@keyframes rotation {from {transform: rotate(0deg);}to {transform: rotate(359deg);}}
+@-webkit-keyframes rotation {from {-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(359deg);}}
+@-moz-keyframes rotation {from {-moz-transform: rotate(0deg);}to {-moz-transform: rotate(359deg);}}
+@-o-keyframes rotation {from {-o-transform: rotate(0deg);}to {-o-transform: rotate(359deg);}}

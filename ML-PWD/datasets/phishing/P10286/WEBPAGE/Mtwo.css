@@ -1,0 +1,267 @@
+/*
+#####################################################################################################
+###### ####### ##      ##      #######  #######       #### #### ####### ##     ##   ######   ########
+##     ##   ## ##      ##      ##   ## ##             ## ### ## ##   ## ##     ##   ##    ##    ##
+###### ####### ##      ##      ####### ##  ######     ##  #  ## ####### #########   ##     ##   ##
+##     ##   ## ##      ##      ##   ## ##    ##       ##     ## ##   ## ##     ##   ##    ##    ##
+##     ##   ## ####### ####### ##   ##  #######       ##     ## ##   ## ##     ##   ######   ########
+#####################################################################################################
+*/
+/* General Files (Fallag Mahdi) */
+@import url("Mbase.css");
+
+/* Mtwo says : Thanks Mone.css for your service at line 12, LOVE YOU <3 */
+/* Blocks (Fallag Mahdi) */
+#FMDone {
+    width: 805px;
+    
+    margin: 0 auto;
+    margin-top: 110px;
+    font-family: "HelveticaNeue", "HelveticaNeue-Light", "Helvetica Neue Light", helvetica, arial, sans-serif;
+}
+#FMDtwo {
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    width: 755px;
+    height: auto;
+    min-height: 325px;
+    padding: 25px 30px 15px;
+    padding-bottom: 40px;
+}
+#FMDthree {
+    width: 815px;
+    height: 20px;
+    background: url("Mcopy.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 5px;
+}
+#FMHloadDone {
+        width: 812px;
+    height: 388px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: none;
+    z-index: 150;
+}
+#FMDlogo {
+    background: url("Mlogo.png");
+    background-position: 0 -47px;
+    width: 112px;
+    height: 29px;
+    margin-top: 5px;
+}
+#FMDhr {
+    margin-top: 25px;
+    border: 0;
+    border-top: 1px solid #DBDBDB;
+    width: 100%
+}
+#FMDbill {
+    margin-top: 20px;
+    width: 350px;
+    height: auto;
+}
+#FMDbillHead {
+    font-size: 1.3em;
+    color: #777;
+    font-weight: bolder;
+    display: block
+}
+#FMDbillHeadEdit {
+    font-size: 0.9em;
+    color: #009CDE;
+    font-weight: bolder;
+}
+#FMDbillAdrs {
+    margin: 10px;
+    font-size: 0.99em;
+    color: #999;
+    font-weight: bold;
+}
+#FMDcardHead {
+    font-size: 1.3em;
+    color: #777;
+    font-weight: bolder;
+    display: block;
+    margin-top: 20px;
+}
+#FMDexpcvdiv {
+    display: none;
+    width: 350px;
+}
+#FMDexpMonth {
+    background-position: 55px 6px;
+}
+#FMDcardHolder {
+    background-position: 318px 6px;
+}
+    
+#FMDcvv {
+    width:150px;
+    float: right
+}
+#FMDcvv.merror {
+    background-position: 115px 6px;
+}
+#FMDcvv.mvalid {
+    background-position: 116px 8px;
+}
+#FMDcard {
+    border-left: 1px solid #DBDBDB;
+    width: 377.5px;
+    float: right;
+    min-height: 231px;
+    margin-top: 7px;
+}
+#FMDcardBg {
+    width: 294px;
+    margin-left: 45px;
+    height: 189px;
+    background: url("Mbgcard.jpg");
+    position: absolute;
+
+}
+#FMDcardBgHead {
+    font-size: 1.3em;
+    color: #777;
+    font-weight: bolder;
+    display: block;
+    margin-top: 20px;
+    text-align: center
+}
+#FMcardBgParts {
+    position: absolute;
+    display: block;
+    top: 100px;
+    left: 26px;
+    font-size: 1.3em;
+    color: #DDD;
+    font-weight: bolder;
+}
+#FMcardBgPartsExp {
+    color: #DDD;
+    font-weight: bolder;
+    position: absolute;
+    display: block;
+    top: 130px;
+    font-size: 0.8em;
+    left: 20px;
+}
+#FMcardBgPartsName {
+    color: #DDD;
+    font-weight: bolder;
+    position: absolute;
+    display: block;
+    font-size: 1em;
+    top: 155px;
+    left: 20px;
+}
+#FMcardBgCardDefault {
+    color: #EEE;
+    font-weight: bolder;
+    position: absolute;
+    display: block;
+    font-size: 1.5em;
+    top: 15px;
+    left: 210px;
+}
+#FMDsubmitButt {
+    text-align: right;
+}
+#FMDsubmitButti {
+    margin-top: 215px;
+    width: 140px;
+    float: right;
+}
+#FMDcardBgBack {
+    width: 294px;
+    margin-left: 45px;
+    height: 189px;
+    background: url("MbgcardBack.jpg");
+    position: absolute;
+    display: none;
+}
+#FMcardBgCVV {
+    color: #000;
+    font-weight: bolder;
+    position: absolute;
+    display: block;
+    font-size: 1em;
+    top: 70px;
+    left: 240px;
+}
+#FMcardBgCVVF {
+    color: #EEE;
+    font-weight: bolder;
+    position: absolute;
+    display: block;
+    font-size: 1em;
+    top: 70px;
+    left: 240px;
+}
+#FMDBalance {
+    float: right;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#FMHDtwo .merror {
+        background-position: 315px 6px;
+}
+#MDpngFINAL {
+        display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+#MDtitleFINAL {
+       font-size: 1.47em;
+    color: #67C100;
+    font-weight: bolder;
+    font-family: "HelveticaNeue", "HelveticaNeue-Light", "Helvetica Neue Light", helvetica, arial, sans-serif;
+    white-space:nowrap;
+}
+#MDwalletButt {
+    width: 180px;
+    float: right;
+    padding: 12px;
+
+}
+#MDhomeButt {
+    width: 180px;
+    background-color: #9A9696;
+    padding: 12px;
+}
+.FMDaddress {
+    width: 350px !important;
+}
+.FMDgeneralClass {
+    width: 350px;
+}
+.FMDmargin10 {
+    margin-top: 10px;
+}
+.FMDexp {
+    width: 90px;
+}
+.FMDinputsclass.merror {
+    background-position: 315px 6px;
+}
+.FMDinputsclass.mvalid {
+    border: 1px solid #0BA004;
+    background: url("Mvalid.png") no-repeat;
+    background-color: #FFF;
+    background-position: 316px 8px;
+    background-size: 25px;
+}
+.FMDdisabled, .FMDdisabled:hover, .FMDdisabled:focus {
+    background-color: #DBDBDB;
+    cursor: default;
+}
+.FMDheadO1 {
+    color:#002069 !important;
+}
+.pf {
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+}
