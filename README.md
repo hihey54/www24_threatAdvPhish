@@ -16,7 +16,7 @@ This folder includes three *.ipynb* files, one subfolder, 5 *.json* files, two *
 * *datasets*, which is a folders containing the dataset proposed in paper *Building standard offline anti-phishing dataset for
 benchmarking* (we just show the source of three phishing webpages, the full dataset can be downloaded from the link proposed in their paper).
 * *feature_extraction.ipynb*, which is a notebook file extracting features from HTML source of webpages.
-* *RF-PWD.ipynb*, which is a notebook containing the custom ML-PWD described in our paper, as well as the prediction for our APW-Lab samples.
+* *RF-PWD.ipynb*, which is a notebook containing machine learning model selection, the custom ML-PWD described in our paper, as well as the prediction for our APW-Lab samples.
 * *apw_lab_generation.ipynb*, which is a notebook stating how we generate APW-Lab webpages.
 * *extractor.py*, which is from [SpacePhish](https://github.com/hihey54/acsac22_spacephish), to extract features from HTML source of webpages.
 * *util.py*, which is a script providing functions for the building of ML-PWD and the generation of APW-Lab samples.

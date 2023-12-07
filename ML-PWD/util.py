@@ -9,6 +9,13 @@ from sklearn.metrics import confusion_matrix
 import random
 import typo
 from bs4 import BeautifulSoup
+from sklearn.metrics import classification_report,confusion_matrix, recall_score,ConfusionMatrixDisplay,plot_confusion_matrix,precision_score,roc_curve,auc
+#from scipy.stats import pearsonr
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense,Conv1D,Dropout,MaxPooling1D,Flatten
+from tensorflow.keras.optimizers import Adam
+import os
+import tensorflow as tf
 
 def read_json(json_file):
     json_f=open(json_file).read()
@@ -128,3 +135,69 @@ def replace_password(ht,out_file):
     #print('soup is',soup)
     with open(out_file, 'w') as out:
         out.write(str(soup))
+def create_model_html():
+    model = Sequential()
+    model.add(Conv1D(48, 2, activation="relu", input_shape=(22,1))) #48
+    model.add(MaxPooling1D())
+    model.add(Dropout(0.2))
+    model.add(Conv1D(64, 2, activation="relu"))
+    model.add(MaxPooling1D())
+    model.add(Dropout(0.2))
+    model.add(Conv1D(128,2, activation="relu"))
+    model.add(MaxPooling1D())
+    model.add(Dropout(0.2))
+    model.add(Dense(64, activation="relu"))
+    #32
+    model.add(Dropout(0.2))
+    model.add(Flatten())
+    model.add(Dense(32, activation="relu"))
+    model.add(Dense(2, activation = 'softmax'))
+    model.compile(loss = 'categorical_crossentropy',#sparse_categorical_crossentropy
+      optimizer ="adam",
+                metrics = [tf.keras.metrics.CategoricalAccuracy()])
+    return model
+def get_recall_cnn(model,test_x,test_y):
+    predict_y=model.predict(test_x)
+    pre_class=np.argmax(predict_y,axis=1)
+    cm= confusion_matrix(test_y, pre_class)
+    #print('cm is',cm)
+    print('pre_class is',pre_class)
+    try:
+        tp=cm[1,1]
+        fn=cm[1,0]
+        cnn_recall=tp/(tp+fn)
+        print('tp is',tp)
+        print('fn is',fn)
+        print('cnn_recall',format(cnn_recall,'.2f'))
+        return cnn_recall
+    except:
+        print('test_y',test_y)
+        print('pre_class',pre_class)
+        if operator.eq(test_y.all(),pre_class.all()):
+            print('recall',1)
+            return 1
+        else:
+            print('recall',0)
+            return 0
+        
+def get_base_fpr_cnn(model,test_x,test_y):
+    predict_y=model.predict(test_x)
+    pre_class=np.argmax(predict_y,axis=1)
+    cm= confusion_matrix(test_y, pre_class)
+    error_sam=[]
+    try:
+        fp=cm[0, 1]
+        tn=cm[0, 0]
+        cnn_fpr=fp/(fp+tn)
+        print('fpr',format(cnn_fpr,'.3f'))
+        return cnn_fpr
+    except:
+        print('pre_class:',pre_class)
+        print('test_y',test_y)
+        if operator.eq(test_y.all(),pre_class.all()):
+            print('fpr',0)
+            return 0
+        else:
+            print('fpr',1)
+            return 1
+        
