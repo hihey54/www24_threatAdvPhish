@@ -1,6 +1,16 @@
 # Overview
-This repo contains the results of the paper "Are Adversarial Phishing Webpages a Threat in Reality?
-Understanding the Users’ Perception of Adversarial Webpages" submitted to WWW'24 and currently under review.
+This repo contains the resources of the paper "“Are Adversarial Phishing Webpages a Threat in Reality?” Understanding the Users’ Perception of Adversarial Webpages" accepted to the Security track of [TheWebConf'24](https://www2024.thewebconf.org/).
+
+If you use any of our resources, you are kindly invited to cite our paper:
+
+```
+@inproceedings{yuan2024are,
+  title={{““Are Adversarial Phishing Webpages a Threat in Reality?” Understanding the Users’ Perception of Adversarial Webpages}},
+  author={Yuan, Ying and Hao, Qingying and Apruzzese, Giovanni and Conti, Mauro and Wang, Gang},
+  booktitle={ACM International World Wide Web Conference (TheWebConf)},
+  year={2024}
+}
+```
 
 ## Organization
 This repository includes three main folders:
