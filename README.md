@@ -16,11 +16,11 @@ If you use any of our resources, you are kindly invited to cite our paper:
 This repository includes three main folders:
 
 * **ML-PWD**: This folder includes the implementation of our custom ML-based phishing website detector and scripts for generating APW-Lab webpages.  
-* **experimental_webpages**: This folder contains all webpages (i.e., unperturbed phishing, legitimate, APW-Lab and APW-Wild) we used in our user study.
-* **analysis**: This folder contains the components needed to replicate all analysis. This includes the codebook, a script for calculating cohen's kappa value, linear regression model and mixed-effect logistic regression model.
+* **USER STUDY**: This folder contains all user study related, one *.pdf* file states how our survey looks and one subfolder list all webpages used in our study.
+* **Analysis**: This folder contains the components needed to replicate all analysis. This includes the codebook, a script for calculating cohen's kappa value, linear regression model and mixed-effect logistic regression model.
 
 ## Contents
-We explain the documents in the order of the list above, i.e., ML-PWD, experimental_webpages and analysis.
+We explain the documents in the order of the list above, i.e., ML-PWD, USER STUDY and Analysis.
 ### ML-PWD
 This folder includes three *.ipynb* files, one subfolder, 5 *.json* files, two *.py* and one *requirements.txt* file:
 * *datasets*, which is a folders containing the dataset proposed in paper *Building standard offline anti-phishing dataset for
@@ -35,14 +35,18 @@ benchmarking*, to build the custom ML-PWD.
 * *addfootimg_use.json, addbackimg_use.json, addtypos_use.json and repass_use.json*, which are the features extracted from APW-Lab webpages.
 * *requirements.txt*, which is a txt file specifying which Python libraries were needed to build the custom ML-PWD and generate APW-Lab webpages.
   
-### experimental_webpages
+### USER STUDY
 
-This folder includes four subfolders:
-* *apw_lab*, which is a folder containing *all* APW-Lab webpages we generated for 15 brands.
-* *apw_wild*, which is a folder containing adversarial phishing webpages in the wild, taken from [Real Attackers Don't Compute Gradients](https://real-gradients.github.io/).
-* *benign_webpages*, which is a folder including the legitimate webpages of 15 brands decribed in our paper.
-* *unperturbed_phish*, which is a folder containing corresponding ubperturbed phishing webpages of 15 brands.
-### analysis
+This folder includes one *.pdf* file and one subfolder:
+
+* *survey.pdf*, which is a pdf file displaying what we show to the users, includes consent form, introduction, main questions,  attention questions,demographic questions and final page.
+* *experimental_webpages*, which is a subfolder includes all webpages used in our survey: Unperturbed Phishing, Legitimate, APW-Lab and APW-Wild. They are in four subfolders:
+ 
+  - *APW_Lab*, which is a folder containing *all* APW-Lab webpages we generated for 15 brands.
+  - *APW_Wild*, which is a folder containing adversarial phishing webpages in the wild, taken from [Real Attackers Don't Compute Gradients](https://real-gradients.github.io/).
+  - *Legitimate*, which is a folder including the legitimate webpages of 15 brands decribed in our paper.
+  - *Unperturbed Phishing*, which is a folder containing corresponding ubperturbed phishing webpages of 15 brands.
+### Analysis
 This is a folder contains 4 files:
 * *codebook.pdf*, which is a pdf file we built based on user's responses for open-form questions.
 * *codebook_kappa.ipynb*, which is a script to calculate two coder's cohen's kappa value.
