@@ -1,5 +1,5 @@
 # Overview
-This repo contains the resources of the paper "“Are Adversarial Phishing Webpages a Threat in Reality?” Understanding the Users’ Perception of Adversarial Webpages" accepted to the Security track of [TheWebConf'24](https://www2024.thewebconf.org/).
+This repo contains the resources of the paper "“Are Adversarial Phishing Webpages a Threat in Reality?” Understanding the Users’ Perception of Adversarial Webpages" accepted to the Security track of [TheWebConf'24](https://www2024.thewebconf.org/). We also created a webpage to provide more information: [ThreatAdvPhish](https://threatadvphish.github.io/)
 
 If you use any of our resources, you are kindly invited to cite our paper:
 
